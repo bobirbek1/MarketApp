@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "439016855924",
+    "firebase_url": "https://mymapexample-3fbbc.firebaseio.com",
+    "project_id": "mymapexample-3fbbc",
+    "storage_bucket": "mymapexample-3fbbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439016855924:android:d19d30b1afffb79e693421",
+        "android_client_info": {
+          "package_name": "com.idrok.marketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439016855924-bae0flvab2549oqr9blk8rh8cclbqnrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV6Bor0xB5wpfrkOISDWz8QaNHmJcakKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439016855924-bae0flvab2549oqr9blk8rh8cclbqnrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439016855924:android:b2f323e49e3993ae693421",
+        "android_client_info": {
+          "package_name": "com.idrok.marketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439016855924-bae0flvab2549oqr9blk8rh8cclbqnrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV6Bor0xB5wpfrkOISDWz8QaNHmJcakKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439016855924-bae0flvab2549oqr9blk8rh8cclbqnrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

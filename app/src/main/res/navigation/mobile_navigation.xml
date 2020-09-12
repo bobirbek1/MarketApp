@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.idrok.marketapp.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.idrok.marketapp.ui.news.NewsFragment"
+        android:label="NewsFragment"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/pageProducts"
+        android:name="com.idrok.marketapp.ui.products.PageProducts"
+        android:label="PageProducts"
+        tools:layout="@layout/fragment_page_titles" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.idrok.marketapp.ui.products.ProductsFragment"
+        android:label="ProductsFragment"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/sectionsFragment"
+        android:name="com.idrok.marketapp.ui.sections.SectionsFragment"
+        android:label="SectionsFragment"
+        tools:layout="@layout/fragment_sections" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.idrok.marketapp.ui.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/productDescription"
+        android:name="com.idrok.marketapp.ui.products.productDescription.ProductDescription"
+        android:label="ProductDescription"
+        tools:layout="@layout/fragment_product_description" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.idrok.marketapp.ui.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.idrok.marketapp.ui.products.TitleFragment"
+        android:label="fragment_page_products"
+        tools:layout="@layout/fragment_page_products" />
+    <fragment
+        android:id="@+id/newsPage"
+        android:name="com.idrok.marketapp.ui.news.news_page.NewsPage"
+        android:label="fragment_news_page"
+        tools:layout="@layout/fragment_news_page" />
+</navigation>

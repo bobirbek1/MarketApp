@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bamboo</string>
+    <string name="title_home">Home</string>
+    <string name="title_sections">Разделы</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_activity_main_activity">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="bolimlar">Разделы:</string>
+    <string name="hammasi">Hammasi</string>
+    <string name="korilgan">Видели:</string>
+
+    <string name="preference_key">com.example.marketapp.PREFERENCE_FILE_KEY</string>
+    <string name="comment_qoldiring">Оставить комментарий</string>
+    <string name="dastur_haqida">О программе</string>
+    <string name="language">Сменить язык</string>
+    <string name="qo_shimcha">Дополнительные</string>
+    <string name="asosiy">Базовый</string>
+    <string name="dasturchi_bilan_aloqa">Связаться с программистом</string>
+    <string name="profile">Профиль</string>
+    <string name="profilni_tahrirlash">Редактировать профиль</string>
+    <string name="ilovani_baholash">Оцените приложение</string>
+    <string name="about_app">Спасибо, что пользуетесь нашим приложением. Чтобы сделать это приложение более удобным для наших клиентов, вы можете получить полную информацию о наших товарах, не посещая наш магазин.. \n\n     Версия ПО: 1.0.0</string>
+    <string name="ok">OK</string>
+    <string name="email">anvarjonovbob1999@mail.ru</string>
+    <string name="tel_1">+998994012741</string>
+    <string name="mahsulotni_ko_rish">Посмотреть продукт</string>
+    <string name="yangi">Новый</string>
+    <string name="arzonroq">Дешевле</string>
+    <string name="qimmatroq">Более дорогой</string>
+    <string name="ko_p_ko_rilgan">Много смотрел</string>
+    <string name="so_m">сум</string>
+    <string name="ismingiz">Ваше имя</string>
+    <string name="familiyangiz">Ваша фамилия</string>
+    <string name="saqlash">Сохранить</string>
+    <string name="image">Image</string>
+
+
+    <string name="o_zbek_tili">Узбекский язык</string>
+    <string name="rus_tili">Русский язык</string>
+    <string name="tilni_tanlang">Выберите язык</string>
+    <string name="permission">Вам должно быть разрешено звонить по телефону</string>
+
+    <string name="onBackPress">Нажмите еще раз, чтобы выйти</string>
+    <string name="buyurtma_bering">Разместить заказ</string>
+
+</resources>

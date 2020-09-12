@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_icon"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/telegram"
+        android:icon="@drawable/ic_telegram"
+        android:title="@string/telegram"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/news_bell"
+        app:actionLayout="@layout/notification_bell"
+        android:icon="@drawable/ic_bell"
+        android:title="@string/news"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.products.TitleFragment">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cg_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:singleSelection="true"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_yangi"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:checked="true"
+            android:text="@string/yangi"
+            app:checkedIconVisible="true"
+            app:checkedIconTint="@color/colorPrimary"
+            android:textSize="16sp"
+            android:theme="@style/ChipTheme"
+            app:chipIconSize="20dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_arzonroq"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/arzonroq"
+            android:textSize="16sp"
+            android:theme="@style/ChipTheme" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_qimatroq"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/qimmatroq"
+            android:textSize="16sp"
+            android:theme="@style/ChipTheme" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_korilgan"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/ko_p_ko_rilgan"
+            android:textSize="16sp"
+            android:theme="@style/ChipTheme" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_page_products"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/cg_filter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
